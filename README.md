@@ -1,46 +1,31 @@
-# Getting Started with Create React App and Redux
+# Boldist Code Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+### Purpose
 
-## Available Scripts
+This project is designed to test potential Boldist Web Developer candidates on the following concepts and should take about 4 hours to complete.
 
-In the project directory, you can run:
+- React-Redux
+- Making API Calls
+- Setting Up An Express.js Backend
+- Bug Fixing
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Start by installing all dependencies using `npm install`.
 
-### `npm test`
+Next, solve the following problem in order to complete the exersise.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### The Situation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We are trying to build a simple React app that renders information retrieved from the [Random User API](https://randomuser.me/). Currently, we are calling the API on the frontend, inside of the `user.js` component. However, we would to make 2 changes:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Call the API from our mini Express.js backend using a new file.
+2. Create the appropriate actions and reducers to retrieve the response from the previously created backend file. then, update the `user.js` component using that response.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The final implementation should result in the user being updated on page load by retrieving data from the backend file using Redux.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+© Boldist 2022
